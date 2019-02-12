@@ -114,7 +114,7 @@ abstract class AbstractExecutor
             $fixture->setReferenceRepository($this->referenceRepository);
         }
         $fixture->load($manager);
-        $manager->clear();
+        // $manager->clear();
     }
 
     /**
